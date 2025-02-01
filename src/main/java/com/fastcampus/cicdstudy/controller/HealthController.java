@@ -17,4 +17,8 @@ public class HealthController {
         return appName + " Health Statue ::: Good";
     }
 
+    @GetMapping("/dongha1")
+    public String healthCheck(){
+        return appName + " Health Statue ::: Good";
+    }
 }
